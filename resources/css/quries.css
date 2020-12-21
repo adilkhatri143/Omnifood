@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* small tablet to big tablet */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 30px 0;
+  }
+
+  .long-copy {
+    line-height: 145%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-steps {
+    margin-bottom: 40px;
+  }
+  .works-steps:last-child {
+    margin-bottom: 80px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-small {
+    width: 17px;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .plan-price {
+    font-size: 200%;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+
+  .works-steps {
+    margin-bottom: 20px;
+  }
+  .works-steps:last-child {
+    margin-bottom: 40px;
+  }
+
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    font-size: 130%;
+    float: left;
+    padding: 3px;
+    margin-right: 15px;
+  }
+
+  .steps-box:first-child {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .app-screen {
+    width: 30%;
+  }
+}
+
+/* small phones to small tablet */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 25px 0;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    line-height: 145%;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .footer-nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .social-links {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 100%;
+  }
+}
+
+/* small phone */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 20px 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
